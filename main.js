@@ -1,1 +1,1 @@
-alert("webpack linked and working");
+(()=>{"use strict";(()=>{const e=document.getElementById("content");e.innerHTML="";const t=document.createElement("header");t.classList.add("header");const n=document.createElement("h1");n.classList.add("title"),n.textContent="Chozen Noodle",t.appendChild(n),e.appendChild(t)})()})();

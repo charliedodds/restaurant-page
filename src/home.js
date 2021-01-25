@@ -44,11 +44,16 @@ const homePage = (() => {
   const createHomeImage = (parent) => {
     const imgContainer = document.createElement('section');
     imgContainer.classList.add('img-container');
-    const img = document.createElement('img');
-    img.classList.add('home-img');
-    img.src =
+    const boxImg = document.createElement('img');
+    boxImg.classList.add('box-img');
+    boxImg.src =
+      'http://fastfood2.wpengine.com/wp-content/uploads/2015/02/chozen-noodle-box2.png';
+    const chefImg = document.createElement('img');
+    chefImg.classList.add('chef-img');
+    chefImg.src =
       'https://images.unsplash.com/photo-1552538962-40822613a09d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1830&q=80';
-    imgContainer.appendChild(img);
+    imgContainer.appendChild(boxImg);
+    imgContainer.appendChild(chefImg);
     parent.appendChild(imgContainer);
   };
 

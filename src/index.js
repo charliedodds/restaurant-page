@@ -1,1 +1,3 @@
-alert('webpack linked and working');
+import homePage from './home';
+
+homePage.load();

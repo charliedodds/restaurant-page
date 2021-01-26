@@ -1,8 +1,6 @@
 const homePage = (() => {
   const content = document.getElementById('content');
   const createHeader = () => {
-    content.innerHTML = '';
-
     const header = document.createElement('header');
     header.classList.add('header');
 
@@ -59,12 +57,14 @@ const homePage = (() => {
 
   const createMain = () => {
     const main = document.createElement('main');
+    main.classList.add('home-main');
     createAboutSection(main);
     createHomeImage(main);
     content.appendChild(main);
   };
 
   const load = () => {
+    content.innerHTML = '';
     createHeader();
     createMain();
   };

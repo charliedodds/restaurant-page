@@ -104,6 +104,8 @@ nav {
   flex-direction: column;
 }
 
+/* home styles */
+
 .header {
   max-width: 100%;
   display: flex;
@@ -117,7 +119,7 @@ nav {
   text-transform: uppercase;
 }
 
-main {
+.home-main {
   display: flex;
   justify-content: center;
 }
@@ -127,7 +129,8 @@ main {
   margin: 3rem 0;
 }
 
-section {
+.home-content,
+.img-container {
   width: 40%;
   display: flex;
   justify-content: center;
@@ -159,4 +162,36 @@ section {
   width: 60%;
   height: auto;
   border-radius: 0.4rem;
+}
+
+/* menu styles */
+
+.menu-main {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  display: flex;
+  margin: 3rem 0;
+  width: 50%;
+}
+
+.menu-item-img {
+  border-radius: 50%;
+}
+
+.menu-info {
+  padding-left: 2rem;
+}
+
+.menu-title {
+  font-size: 1.8rem;
+}
+
+.price {
+  font-size: 1.5rem;
 }

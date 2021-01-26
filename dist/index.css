@@ -223,6 +223,7 @@ form * {
 .text-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .submit-btn {
